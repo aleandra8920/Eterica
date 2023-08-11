@@ -1,0 +1,1 @@
+Es mi primera página web, en la cuál quiero poner cositas de aprendizaje y auto comocimiento personal
