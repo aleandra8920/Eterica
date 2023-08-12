@@ -63,7 +63,6 @@
 
 @media screen and (max-width:700px) {
 
-   
 
     .meditacion img {
         width: 300px;
@@ -71,6 +70,10 @@
         margin-top: 30px;
     }
 
-   
+    .meditacion p {
+        padding: 50px;
+        font-size: 15px;
+    }
+
 
 }
