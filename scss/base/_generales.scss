@@ -7,39 +7,40 @@
 /*-------General-------*/
 
 html {
-    background-color: #042940;
+    background-color: $color-azul;
     font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: #042940 !important;
+    background-color: $color-azul !important;
 }
 
 .nav-link {
     color: #F3ECE3;
-}
-.nav-link:hover {
-    color: #FFCC64;
+    &:hover{
+        color: #FFCC64;
+} 
 }
 
 .navbar-toggler-icon {
-    background-color: #83D980;
+    background-color: $color-verde;
+    border-radius: 3px;
 }
 
 h2 {
-    color: #F3ECE3;
+    color: $color-beige;
 }
 
 h3 {
-    color: #F3ECE3;
+    color: $color-beige;
 }
 
 p{
-    color: #F3ECE3;
+    color: $color-beige;
 }
 
 section form{
-    color: #F3ECE3;
+    color: $color-beige;
 }
 
 .hero{
@@ -68,8 +69,8 @@ section form{
     }
     a{
         text-decoration: none;
-        background-color: #042940;
-        color: #F3ECE3;
+        background-color: $color-azul;
+        color: $color-beige;
         padding: 17px;
         border-radius: 5px;
     }
@@ -111,25 +112,31 @@ section form{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 115px;
+
     div{
         width: 200px;
         height: 470px;
         text-align: center;
-        color: #F3ECE3;
+        color: $color-beige;
         border-radius: 13px;
         margin: 95px;
         img{
             width: 200px;
             height: 347px;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.05);
+            }
         }
         h3{
             margin: 15px 0px 15px 0px;
             font-weight: 400;
+            font-size: 21px;
         }
         a{
             text-decoration: none;
             color: #042940;
-            background-color: #83D980;
+            background-color: $color-verde;
             font-size: 15px;
             padding: 7px;
             border-radius: 5px;
@@ -145,7 +152,7 @@ section form{
 }
 
 .meditacion {
-    background-color: #F3ECE3;
+    background-color: $color-beige;
     margin-top: 50px;
     padding: 30px;
     display: flex;
@@ -160,7 +167,7 @@ section form{
         font-weight: 500;
         font-size: 20px;
         display: block;
-        width: 500px;
+        width: 50%;
     }
 }
 
@@ -171,7 +178,7 @@ section form{
     }
     ul{
         text-align: left;
-        color: #F3ECE3;
+        color: $color-beige;
     }
 }
 
@@ -183,4 +190,60 @@ section form{
     img{
         width: 500px;
     }
+}
+
+.estrella01{
+    position: absolute;
+    left: 60%;
+    width: 50px;
+    text-transform:uppercase;
+}
+
+.estrella02{
+    position: absolute;
+    left: 30%;
+    top: 800px;
+    width: 30px;
+    text-transform:uppercase;
+}
+
+.estrella03{
+    position: absolute;
+    left: 30%;
+    top: 2500px;
+    width: 30px;
+    text-transform:uppercase;
+}
+
+.estrella04{
+    position: absolute;
+    left: 80%;
+    top: 2400px;
+    width: 45px;
+    text-transform:uppercase;
+}
+
+
+.destello {
+    animation-name: destello;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name:destello;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes destello {  
+    10% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes destello {  
+    10% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
 }

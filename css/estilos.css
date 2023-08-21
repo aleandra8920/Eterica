@@ -13,12 +13,12 @@ body {
 
 .nav-link {
   color: #F3ECE3; }
-
-.nav-link:hover {
-  color: #FFCC64; }
+  .nav-link:hover {
+    color: #FFCC64; }
 
 .navbar-toggler-icon {
-  background-color: #83D980; }
+  background-color: #83D980;
+  border-radius: 3px; }
 
 h2 {
   color: #F3ECE3; }
@@ -99,10 +99,14 @@ section form {
     margin: 95px; }
     .tarjetas div img {
       width: 200px;
-      height: 347px; }
+      height: 347px;
+      transition: 1s; }
+      .tarjetas div img:hover {
+        transform: scale(1.05); }
     .tarjetas div h3 {
       margin: 15px 0px 15px 0px;
-      font-weight: 400; }
+      font-weight: 400;
+      font-size: 21px; }
     .tarjetas div a {
       text-decoration: none;
       color: #042940;
@@ -132,7 +136,7 @@ section form {
     font-weight: 500;
     font-size: 20px;
     display: block;
-    width: 500px; }
+    width: 50%; }
 
 .meditacion-texto h3 {
   text-align: center;
@@ -149,6 +153,59 @@ section form {
   margin-bottom: 70px; }
   .beneficios img {
     width: 500px; }
+
+.estrella01 {
+  position: absolute;
+  left: 60%;
+  width: 50px;
+  text-transform: uppercase; }
+
+.estrella02 {
+  position: absolute;
+  left: 30%;
+  top: 800px;
+  width: 30px;
+  text-transform: uppercase; }
+
+.estrella03 {
+  position: absolute;
+  left: 30%;
+  top: 2500px;
+  width: 30px;
+  text-transform: uppercase; }
+
+.estrella04 {
+  position: absolute;
+  left: 80%;
+  top: 2400px;
+  width: 45px;
+  text-transform: uppercase; }
+
+.destello {
+  animation-name: destello;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: destello;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite; }
+
+@-webkit-keyframes destello {
+  10% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+
+@keyframes destello {
+  10% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
 
 header {
   display: flex;
@@ -215,7 +272,8 @@ footer {
     display: flex;
     flex-direction: column; }
   .meditacion p {
-    padding: 20px; }
+    padding: 20px;
+    width: 99%; }
   .meditacion_texto section p {
     padding: 30px;
     font-size: 17px; }
