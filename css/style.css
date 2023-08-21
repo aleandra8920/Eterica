@@ -109,6 +109,14 @@ section form{
     text-align: center;
 }
 
+.intro_tarot p {
+    font-size: 20px;
+    padding: 0px 50px 0px 50px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .intro_contactanos h2 {
     font-size: 45px;
     margin: 100px 0px 100px 0px;
@@ -118,14 +126,6 @@ section form{
 .intro_contactanos form {
     width: 80%;
     margin: auto;
-}
-
-.intro_tarot p {
-    font-size: 20px;
-    padding: 0px 50px 0px 50px;
-    font-weight: 300;
-    text-align: center;
-    margin-bottom: 50px;
 }
 
 .tarjetas {
@@ -158,11 +158,6 @@ section form{
    font-weight: 400;
 }
 
-.tarjetas div p {
-    font-size: 15px;
-    font-weight: 300;
-}
-
 .tarjetas div a {
     text-decoration: none;
     color: #042940;
@@ -176,25 +171,24 @@ section form{
 
 }
 
+.tarjetas div p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
 .meditacion {
     background-color: #F3ECE3;
     margin-top: 50px;
     padding: 30px;
-
-}
-
-.meditacion {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-
 .meditacion img {
     width: 500px;
     margin: 30px;
 }
-
 
 .meditacion p {
     color: #042940;
@@ -212,11 +206,11 @@ footer {
 }
 
 footer h2 {
-    color: #042940
+    color: #042940;
 }
 
 footer p {
-    color: #042940
+    color: #042940;
 }
 
 .grid-footer {
@@ -246,17 +240,16 @@ footer p {
     grid-row: span 2;
 }
 
-.item-centrar {
+/* .item-centrar {
     align-items: center;   
     display: flex;
     justify-content: space-around;
-}
+} */
 
 .meditacion-texto h3 {
     text-align: center;
     margin-bottom: 70px;
 }
-
 
 .meditacion-texto ul {
     text-align: left;

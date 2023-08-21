@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        img{
+            margin: 20px 0px 20px 20px;
+            width: 81%;
+        }
+    }
+    nav{
+        background-color: #042940;
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                margin: 20px;
+            }
+        }
+    }
+}
