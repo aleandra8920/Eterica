@@ -1,0 +1,77 @@
+/*----------------950----------------*/
+
+@media screen and (max-width:950px) {
+
+    .hero {
+        height: 75vh;
+    }
+
+
+    .hero h2 {
+        font-size: 30px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .hero p {
+        font-size: 17px;        
+        width: 85%;
+        margin-bottom: 5px;
+    }
+
+    .intro_tarot p {
+        font-size: 17px;
+    }
+
+    .meditacion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meditacion p {
+        padding: 20px;
+    }
+
+    .meditacion_texto section p {
+       padding: 30px;
+       font-size: 17px;
+    }
+
+    .beneficios {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .beneficios img {
+        width: 400px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .meditacion-texto h3 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/*----------------700----------------*/
+
+
+@media screen and (max-width:700px) {
+
+
+    .meditacion img {
+        width: 300px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .meditacion p {
+        padding: 50px;
+        font-size: 15px;
+    }
+
+
+}
