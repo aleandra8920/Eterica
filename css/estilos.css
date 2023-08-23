@@ -155,15 +155,15 @@ section form {
     width: 500px; }
 
 .estrella01 {
-  position: absolute;
+  position: relative;
   left: 60%;
   width: 50px;
   text-transform: uppercase; }
 
 .estrella02 {
-  position: absolute;
+  position: relative;
   left: 30%;
-  top: 800px;
+  top: 20px;
   width: 30px;
   text-transform: uppercase; }
 
@@ -308,6 +308,10 @@ footer {
   .meditacion p {
     padding: 50px;
     font-size: 15px; }
+  .estrella01 {
+    left: 20%; }
+  .estrella02 {
+    left: 45%; }
   .estrella03 {
     left: 10%; }
   .estrella04 {
