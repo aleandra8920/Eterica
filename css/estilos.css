@@ -20,10 +20,16 @@ body {
   background-color: #83D980;
   border-radius: 3px; }
 
+h1 {
+  color: #F3ECE3; }
+
 h2 {
   color: #F3ECE3; }
 
 h3 {
+  color: #F3ECE3; }
+
+h5 {
   color: #F3ECE3; }
 
 p {
@@ -61,7 +67,7 @@ section form {
     padding: 17px;
     border-radius: 5px; }
 
-.intro_tarot h2 {
+.intro_tarot h1 {
   font-size: 45px;
   margin: 100px 0px 50px 0px;
   text-align: center; }
@@ -73,7 +79,7 @@ section form {
   text-align: center;
   margin-bottom: 50px; }
 
-.intro_contactanos h2 {
+.intro_contactanos h1 {
   font-size: 45px;
   margin: 100px 0px 100px 0px;
   text-align: center; }
